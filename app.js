@@ -6,7 +6,6 @@ var models = require('./models');
 var middleware = require('./middleware');
 var app = express();
 var oauthserver = require('node-oauth2-server');
-var User = models.User;
 
 app.set('env', process.env.NODE_ENV || 'development');
 app.set('port', process.env.PORT || 3000);
